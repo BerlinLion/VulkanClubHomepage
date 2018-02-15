@@ -1,0 +1,240 @@
+header{
+    height: 70px;
+}
+body {
+    margin: 0px auto;
+    scroll-behavior: auto;
+}
+h1{
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+.dcititle{
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+.topline {
+height: 10px;
+background-color: #FF6600;
+}
+.titlecontent{
+    font-family: 'Homenaje', sans-serif;
+    text-align: center;
+    color: #660033;
+    margin-top: 5em;
+    
+}
+.textblock{
+    
+    width: 100%;
+    margin-top: -2em;
+}
+.textcontent{
+    font-family: helvetica;
+    text-align: center;
+    width: 100%;
+}
+nav.flexbox {
+    display: flex;
+    justify-content: center;
+    transition: 0.15s;
+    font-family: 'Homenaje', sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+}
+nav.flexbox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    border: 10px;
+    font-size: 1em;
+    background: #ff6600;
+    color: #660033;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+nav.table li, nav.flexbox li {
+    float: left;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+nav.inline-block li {
+    display: inline-block;
+    margin: 0px;
+}
+nav.flexbox li a {
+    text-decoration: none;
+    display: block;
+    background-color: #FF6600;
+    padding: 20px 20px;
+    color: #660033;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px;
+}
+nav:hover{
+    font-size: 150%; 
+    margin-top: 0px;
+    transition: ease-out 0.30s;
+}
+nav li a:hover{
+    color:  #ffffff;
+}
+nav.flexbox a.active{
+    background: #FF6600;
+    color: #ffffff;
+}
+.text{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+#contact_message_block, #contact_we_block{
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1em;
+    justify-content: space-around;
+    margin: 0px auto;
+    margin-bottom: 3em;
+    width: 100%;
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1em;
+}
+.contactblock ul {
+    list-style: none;
+    margin: 0 auto;
+    margin-top: -50px;
+    height: auto;
+    font-size: 1em;
+    color: #000000;
+}
+.contactblock ul li{
+    padding: 0em 0em 0em 0em;
+}
+#contact_message_block li input, #contact_message_block li textarea, #contact_message_block li checkbox{
+    border: 1px solid #663300;
+}
+#input_news_letter label{
+    border: 1px solid #663300;
+}
+#bec_mem{
+    grid-column: 4/6;
+    grid-row: 1/3;
+}
+#text_first_name{
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+#input_first_name{
+    grid-column: 4/6;
+    grid-row: 4/6;
+}
+
+#text_email{
+    grid-column: 8/10;
+    grid-row: 4/6;
+}
+#input_email{
+    grid-column: 11/13;
+    grid-row: 4/6;
+}
+
+#text_last_name{
+    grid-column: 1/3;
+    grid-row: 7/9;
+}
+#input_last_name{
+    grid-column: 4/6;
+    grid-row: 7/9;
+}
+
+#text_news_letter{
+    grid-column: 8/10;
+    grid-row: 7/9;
+}
+#input_news_letter{
+    grid-column: 11/13;
+    grid-row: 7/9;
+}
+
+#text_message{
+    grid-column: 1/3;
+    grid-row: 13/15;
+}
+#input_message{
+    grid-column: 4/6;
+    grid-row: 10/18;
+}
+
+#button_submit{
+    grid-column: 11/13;
+    grid-row: 16/18; 
+}
+#button_submit>button{
+    width: 100%;
+    background: #663300;
+    padding: none;
+    margin: 0 auto;
+    border: none;
+    color: #ff6600;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.2em;
+}
+#contact_message_block>li>input:not(#input_news_letter_checkbox), #contact_message_block>li>textarea{
+    width: 100%;
+    height: 100%;
+}
+#input_news_letter_checkbox{
+    background: #663300;
+    padding: 1px solid #663300;
+    margin: 0 auto;
+    border: none;
+    color: #ff6600;
+    font-family: 'Homenaje', sans-serif;
+    
+}
+#our_email{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#our_address{
+    grid-column: 18/20;
+    grid-row: 1/6;
+}
+#contact_map{
+    grid-column: 1/20;
+    grid-row: 7/40;
+    border: 1px solid #ff6600;
+}
+#contact_map>iframe{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    background: #663300;
+    position: fixed;
+    bottom: 0px;
+}
+#footer_contact{
+    color: #ff6600;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 0.6em 0em 0.6em 0em;
+    text-align: right;
+}

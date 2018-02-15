@@ -1,0 +1,22 @@
+<svg width="35" height="30" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 4</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(628 67)">
+<g id="Group 4">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 -610.686 -68)" fill="#FF6600"/>
+</g>
+<g id="Ellipse 2.3">
+<use xlink:href="#path1_stroke" transform="matrix(-0.707107 0.707107 -0.707107 -0.707107 -602.201 -39)" fill="#993366"/>
+</g>
+<g id="Ellipse 2.4">
+<use xlink:href="#path2_stroke" transform="matrix(-0.707107 0.707107 -0.707107 -0.707107 -594.887 -45.071)" fill="#993366"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 8 4C 8 6.20914 6.20914 8 4 8C 1.79086 8 0 6.20914 0 4C 0 1.79086 1.79086 0 4 0C 6.20914 0 8 1.79086 8 4Z"/>
+<path id="path1_stroke" d="M 12 10C 6.47715 10 2 5.52285 2 0L -2 0C -2 7.73199 4.26801 14 12 14L 12 10Z"/>
+<path id="path2_stroke" d="M 22 20C 10.9543 20 2 11.0457 2 0L -2 0C -2 13.2548 8.74517 24 22 24L 22 20Z"/>
+</defs>
+</svg>

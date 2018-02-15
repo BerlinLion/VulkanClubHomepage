@@ -1,0 +1,18 @@
+<svg width="42" height="43" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 5.2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(430 74)">
+<g id="Group 5.2">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="matrix(0 1 -1 0 -388.18 -56.5944)" fill="#FF6600"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_stroke" transform="matrix(-0.707107 0.707107 -0.707107 -0.707107 -381.887 -52.4437)" fill="#993366"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 8 4C 8 6.20914 6.20914 8 4 8C 1.79086 8 0 6.20914 0 4C 0 1.79086 1.79086 0 4 0C 6.20914 0 8 1.79086 8 4Z"/>
+<path id="path1_stroke" d="M 35.5563 18.7782C 35.5563 28.0445 28.0445 35.5563 18.7782 35.5563L 18.7782 39.5563C 30.2536 39.5563 39.5563 30.2536 39.5563 18.7782L 35.5563 18.7782ZM 18.7782 35.5563C 9.51184 35.5563 2 28.0445 2 18.7782L -2 18.7782C -2 30.2536 7.3027 39.5563 18.7782 39.5563L 18.7782 35.5563ZM 18.7782 2C 28.0445 2 35.5563 9.51184 35.5563 18.7782L 39.5563 18.7782C 39.5563 7.3027 30.2536 -2 18.7782 -2L 18.7782 2Z"/>
+</defs>
+</svg>

@@ -1,0 +1,177 @@
+header{
+    height: 70px;
+}
+body {
+    margin: 0px auto; 
+    scroll-behavior: auto;
+}
+h1{
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+.dcititle{
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+.topline {
+height: 10px;
+background-color: #FF6600;
+}
+.titlecontent{
+    font-family: 'Homenaje', sans-serif;
+    text-align: center;
+    color: #660033;
+    margin-top: 5em;
+    
+}
+.textblock{
+    
+    width: 100%;
+    margin-top: -2em;
+}
+.textcontent{
+    font-family: helvetica;
+    text-align: center;
+    width: 100%;
+}
+nav.flexbox {
+    display: flex;
+    justify-content: center;
+    transition: 0.15s;
+    font-family: 'Homenaje', sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+}
+nav.flexbox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    border: 10px;
+    font-size: 1em;
+    background: #ff6600;
+    color: #660033;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+nav.table li, nav.flexbox li {
+    float: left;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+nav.inline-block li {
+    display: inline-block;
+    margin: 0px;
+}
+nav.flexbox li a {
+    text-decoration: none;
+    display: block;
+    background-color: #FF6600;
+    padding: 20px 20px;
+    color: #660033;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px;
+}
+nav:hover{
+    font-size: 150%; 
+    margin-top: 0px;
+    transition: ease-out 0.30s;
+}
+nav li a:hover{
+    color:  #ffffff;
+}
+nav.flexbox a.active{
+    background: #FF6600;
+    color: #ffffff;
+}
+.text{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 550px;
+}
+.forum_table, tr{
+    
+    border-collapse: collapse;
+    font-family: 'Homenaje', sans-serif;
+    width: 850px;
+    margin: 0px auto;
+}
+.forum_table_header{
+    background-color: #ff6600;
+    
+}
+#forum_table_header_title{
+    color: #660033;
+    text-align: left;
+    font-size: 1.2em;
+    padding-left: 30px;
+}
+.forum_table_content_row{
+    height: 2em;
+    width: auto;
+    border: 1em ;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #663300;
+}
+#ftcr_title{
+    padding-left: 30px;
+}
+#ftcr_first, #ftcr_second, #ftcr_third{
+    text-align: center;
+    padding-right: 3em;
+}
+#submit_button_cell{
+    background: #663300;
+    color: #ff6600;
+    text-align: center;
+    border: 0px;
+}
+#ftcr_submit{
+    border: 0px;
+    margin: 0 auto;
+}
+#button_submit{
+    background: #663300;
+    padding: none;
+    margin: 0 auto;
+    border: none;
+    color: #ff6600;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.2em;
+}
+#forum_table_symbol{
+    width: 3em;
+    height: 3em;
+}
+.forum_table_image{
+    width: 23px;
+    height: 23px;
+    padding-right: 3em;
+}
+footer{
+    width: 100%;
+    background: #663300;
+    position: fixed;
+    bottom: 0px;
+}
+#footer_contact{
+    color: #ff6600;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 0.6em 0em 0.6em 0em;
+    text-align: right;
+}

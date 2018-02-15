@@ -1,0 +1,36 @@
+var ssid = 'DCI Students';
+var password = '7jYq4y5Sf5K2xX';
+var port = 80;
+var light = false;
+digitalWrite(0, 0);
+digitalWrite(2, 0);
+digitalWrite(14, 0);
+
+
+var wifi = require('Wifi');
+function onPageRequest(req, res) {
+  var a = url.parse(req.url, light);
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write('<html><body>');
+  res.write('<p style="font-family: "Homenaje"; color: #660033; font-size: 20px; margin: 20px;">Pin is '+(D12.read()?'on':'off')+'</p>');
+  res.write('<a onclick="setOn()" href="?led=0">on</a><br/><a onclick="setOff()" href="?led=1">off</a>');
+  res.end('</body></html>');
+  if (a.query && "led" in a.query)
+    digitalWrite(12, a.query["led"]);
+}
+
+wifi.connect(ssid, {password: password}, function() {
+
+    var http = require('http');
+    http.createServer(onPageRequest).listen(port);
+
+    console.log(`Web server running at http://${wifi.getIP().ip}:${port}`)
+});
+function setOn()
+{
+  light = true;
+}
+function setOff()
+{
+  light= false;
+}
