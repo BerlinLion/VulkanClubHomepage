@@ -142,7 +142,6 @@ footer{
 
 }
 
-<<<<<<< HEAD
 .hidden {
   position: absolute;
   left: -10000px;
@@ -150,7 +149,6 @@ footer{
   width: 1px;
   height: 1px;
   overflow: hidden;
-=======
 
 div:hover{
  perspective: 200px;
@@ -200,5 +198,4 @@ div:hover{
     transform: translateX(0);
 
   }
->>>>>>> bdd28e743526845efb29784a7e39dc68e5b7a078
 }
