@@ -1,4 +1,9 @@
-body{
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ body{
 
   width:80%;
   margin: auto;
@@ -143,6 +148,7 @@ footer{
   font-size: 20px;
   padding: 5px;
   box-sizing: border-box;
+  padding-top: 13px;
 
 }
 
