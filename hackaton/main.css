@@ -34,13 +34,14 @@ box-sizing: border-box;
 padding-top: 55px;
 display: inline-block;
 line-height:20px;
-transition:all ease-in-out .5s;
+transition:all ease-in-out .8s;
 
 }
 
 .img:hover{
-transform: scale(1.3);
+transform: scale(1.3) rotate(720deg);
 }
+
 
 hr{
   width: 70%;
@@ -156,8 +157,8 @@ div:hover{
  perspective: 200px;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
    -webkit-animation-timing-function: ease-in-out;
@@ -187,7 +188,7 @@ div:hover{
     -webkit-transform: translateX(-3px) rotateY(-5deg);
     transform: translateX(-3px) rotateY(-5deg);
 
-    opacity: .8
+    opacity: .9
   }
 
   43.5% {
